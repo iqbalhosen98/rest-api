@@ -1,0 +1,23 @@
+{
+    "name": "mrpathcloud/rest-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iqbal",
+            "email": "mdiqbalhosen5798@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mrpath\\RestApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mrpath\\RestApi\\Providers\\RestApiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
